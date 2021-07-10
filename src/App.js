@@ -1,9 +1,9 @@
-import "./App.css";
+import "./styles/App.css";
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import About from "./About";
-import Home from "./Home";
-import Navigation from "./Navigation";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Navigation from "./elements/Navigation";
 
 function App() {
   return (
