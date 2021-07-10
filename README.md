@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7ecbc36e-fed2-4ca0-bedf-b6bcba40d117/deploy-status)](https://app.netlify.com/sites/simp-bot-site/deploys)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
