@@ -1,11 +1,8 @@
-import React, { Component } from "react";
-import { HashRouter, Link, Route } from "react-router-dom";
-import "./App.css";
-import logo from "./logo.svg";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <HashRouter basename='/'>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -22,7 +19,6 @@ function App() {
         </a>
       </header>
     </div>
-    </HashRouter>
   );
 }
 
