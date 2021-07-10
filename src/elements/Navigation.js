@@ -8,7 +8,7 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="https://git.io/JcpyV" target="_blank">GitHub</Nav.Link>
