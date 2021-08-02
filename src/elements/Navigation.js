@@ -7,8 +7,8 @@ const Navigation = () => {
     <Navbar.Brand href="https://simp-bot.xyz">
       <img
         src="https://raw.githubusercontent.com/OOF2510/simp-bot-site/master/public/logo192.png"
-        width="30"
-        height="30"
+        width="100"
+        height="60"
         className="d-inline-block align-top"
         alt="Simp Bot Logo"
         />
