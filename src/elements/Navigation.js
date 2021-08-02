@@ -4,8 +4,14 @@ const Navigation = () => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <img src="https://raw.githubusercontent.com/OOF2510/simp-bot-site/master/public/logo192.png">
-        <Navbar.Brand href="/#">Simp Bot</Navbar.Brand>
+    <Navbar.Brand href="https://simp-bot.xyz">
+      <img
+        src="https://raw.githubusercontent.com/OOF2510/simp-bot-site/master/public/logo192.png"
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+        alt="Simp Bot Logo"
+      />
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
