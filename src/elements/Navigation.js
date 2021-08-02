@@ -4,8 +4,7 @@ import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 const Navigation = () => {
   return (
     <>
-  <Container>
-          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Navbar.Brand href="https://simp-bot.xyz">
       <img
         src="https://raw.githubusercontent.com/OOF2510/simp-bot-site/master/public/logo192.png"
@@ -15,6 +14,7 @@ const Navigation = () => {
         alt="Simp Bot Logo"
         />
         </Navbar.Brand>
+  <Container>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
