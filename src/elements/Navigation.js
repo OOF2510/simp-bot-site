@@ -11,7 +11,8 @@ const Navigation = () => {
         height="30"
         className="d-inline-block align-top"
         alt="Simp Bot Logo"
-      />
+        />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
