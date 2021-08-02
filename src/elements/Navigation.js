@@ -24,6 +24,7 @@ const Navigation = () => {
             <Nav.Link href="https://discord.gg/zHtfa8GdPx" target="_blank">
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            </Navbar.Collapse>
             </NavDropdown>
               Support Server
             </Nav.Link>
