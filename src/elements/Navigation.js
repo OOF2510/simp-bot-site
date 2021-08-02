@@ -11,6 +11,7 @@ const Navigation = () => {
             <Nav.Link href="/">Home</Nav.Link>
           </Nav>
           <Nav>
+            <Nav.Link href="https://simp-bot.xyz/partners" target="_blank">Partners</Nav.Link>
             <Nav.Link href="https://git.io/JcpyV" target="_blank">GitHub</Nav.Link>
             <Nav.Link href="https://discord.gg/zHtfa8GdPx" target="_blank">
               Support Server
