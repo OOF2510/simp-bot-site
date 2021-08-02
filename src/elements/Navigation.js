@@ -28,7 +28,6 @@ const Navigation = () => {
               Support Server
             </Nav.Link>
       </Nav>
-    </>
   );
 };
 
