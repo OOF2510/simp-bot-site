@@ -1,17 +1,23 @@
-import "../styles/App.css";
-import React from "react";
+import React from 'react';
+
+const divStyle = {
+    color:'black'
+};
 
 class Partner extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <br />
-          <h1>Partners</h1>
-        </header>
-      </div>
-    );
-  }
+    
+    render() {
+        return (
+            <div style={divStyle}>
+                <h2>Partner Page</h2>
+                <main>
+                    <p>This section contains information about our partners</p>
+                </main>
+            </div>
+        )
+    }
 }
+
+
 
 export default Partners;
