@@ -4,7 +4,7 @@ const divStyle = {
     color:'black'
 };
 
-class Partner extends React.Component {
+class Partners extends React.Component {
     
     render() {
         return (
