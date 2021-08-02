@@ -24,17 +24,9 @@ const Navigation = () => {
             <Nav.Link href="https://discord.gg/zHtfa8GdPx" target="_blank">
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            </Navbar.Collapse>
             </NavDropdown>
               Support Server
             </Nav.Link>
-            <Nav.Link
-              href="https://discord.com/api/oauth2/authorize?client_id=808822189905936405&permissions=8&scope=bot"
-              target="_blank"
-            >
-              Invite
-            </Nav.Link>
-        </Navbar.Collapse>
       </Navbar>
     </>
   );
