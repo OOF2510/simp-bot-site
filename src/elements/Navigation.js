@@ -15,10 +15,8 @@ const Navigation = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-          </Nav>
           <Nav>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/#/partners" target="_blank">Partners</Nav.Link>
             <Nav.Link href="https://git.io/JcpyV" target="_blank">GitHub</Nav.Link>
             <Nav.Link href="https://discord.gg/zHtfa8GdPx" target="_blank">
