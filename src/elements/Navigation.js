@@ -1,3 +1,4 @@
+import { Navbar, Nav } from "react-bootstrap";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
 const Navigation = () => {
@@ -13,7 +14,6 @@ const Navigation = () => {
         alt="Simp Bot Logo"
         />
         </Navbar.Brand>
-<Navbar bg="light" expand="lg">
   <Container>
     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -32,7 +32,7 @@ const Navigation = () => {
     </Navbar.Collapse>
   </Container>
 </Navbar>
+</>
   );
 };
-
 export default Navigation;
