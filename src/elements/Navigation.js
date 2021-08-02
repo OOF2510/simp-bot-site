@@ -13,11 +13,6 @@ const Navigation = () => {
         alt="Simp Bot Logo"
         />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto">
-    
-        <Navbar bg="light" expand="lg">
   <Container>
     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
