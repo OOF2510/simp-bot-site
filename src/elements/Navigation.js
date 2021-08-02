@@ -27,7 +27,7 @@ const Navigation = () => {
             </NavDropdown>
               Support Server
             </Nav.Link>
-      </Navbar>
+      </Nav>
     </>
   );
 };
